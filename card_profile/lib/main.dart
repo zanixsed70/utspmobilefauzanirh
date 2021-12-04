@@ -33,7 +33,7 @@ class CardProfile extends StatelessWidget {
             SizedBox(
               height: 50.0,
               width: 150.0,
-              child: Divider(color: Colors.teal.shade100,),
+              child: Divider(color: Colors.teal.shade100,), //fauzani rahman
             ),
             Card(
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
@@ -45,7 +45,7 @@ class CardProfile extends StatelessWidget {
                 title: Text(
                   '+628 2298 7513 94', style: TextStyle(
                     color: Colors.teal.shade900, 
-                    fontFamily: 'DinoTopia',
+                    fontFamily: 'DinoTopia', //19710037
                     fontSize: 20.0),
                   ),
               ),
@@ -120,7 +120,7 @@ class CardProfile extends StatelessWidget {
           Card(
             margin: EdgeInsets.symmetric(
               vertical: 10.0,
-              horizontal: 25.0,
+              horizontal: 25.0, //maaf pak, gak sempat sampai ke navigator.
             ),
           child: ListTile(
             leading: Icon(
